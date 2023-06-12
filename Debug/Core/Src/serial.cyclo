@@ -1,0 +1,7 @@
+serial.c:28:10:subString	2
+serial.c:40:6:StrCompare	3
+serial.c:53:6:SerialInit	1
+serial.c:59:6:SerialAcceptReceive	1
+serial.c:64:6:SerialWriteComm	1
+serial.c:85:6:SerialParse	3
+serial.c:106:6:HAL_UART_RxCpltCallback	2

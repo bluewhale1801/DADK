@@ -1,0 +1,310 @@
+19:59:15 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20088	    128	   2056	  22272	   5700	Turning.elf
+Finished building: default.size.stdout
+ 
+20:04:08 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20088	    128	   2056	  22272	   5700	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
+20:04:10 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20088	    128	   2056	  22272	   5700	Turning.elf
+Finished building: default.size.stdout
+ 
+21:25:30 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/serial.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/serial.d" -MT"Core/Src/serial.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/serial.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
+21:25:36 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+21:30:54 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
+21:30:57 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+21:42:57 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
+21:43:00 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+21:46:32 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
+21:46:34 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:49 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:51 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:19:40 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:19:41 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:17:55 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:18:00 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:20:32 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:20:33 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:20:42 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+16:20:44 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:39:14 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:39:17 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:16:40 **** Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:16:42 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:17:17 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:17:18 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:09 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:10 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:27 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:18:28 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:22:59 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+22:23:00 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+09:24:28 **** Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+09:24:29 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+09:26:09 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+09:26:12 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-size   Turning.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20064	    128	   2056	  22248	   56e8	Turning.elf
+Finished building: default.size.stdout
+ 
+11:06:15 **** Incremental Build of configuration Debug for project Turning ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Turning.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\BlueWhale\Desktop\PID-187f9f766858422ee6c65cbc2614a88984a946de\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Turning.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Turning.elf
+ 
+arm-none-eabi-size   Turning.elf 
+arm-none-eabi-objdump -h -S  Turning.elf  > "Turning.list"
+   text	   data	    bss	    dec	    hex	filename
+  20120	    128	   2056	  22304	   5720	Turning.elf
+Finished building: default.size.stdout
+ 
+Finished building: Turning.list
+ 
